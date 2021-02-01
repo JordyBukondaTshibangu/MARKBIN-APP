@@ -3,6 +3,7 @@ import { Template } from 'meteor/templating';
 import { Blaze } from 'meteor/blaze';
  
 class Accounts extends Component {
+
     componentDidMount() {
         this.view = Blaze.render(
             Template.loginButtons,
@@ -15,6 +16,7 @@ class Accounts extends Component {
     }
  
     render() {
+        
         return (
             <div
                 ref={node => {
