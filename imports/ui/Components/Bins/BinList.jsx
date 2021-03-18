@@ -3,7 +3,7 @@ import {withTracker} from 'meteor/react-meteor-data';
 import { Bins } from '../../../api/Collections/binsCollection';
 import { Link } from 'react-router-dom'
 
-const BinLsist = props => {
+const BinList = props => {
     const handleRemoveBin = _id => {
         Meteor.call('bins.remove', _id);
     }
@@ -29,4 +29,4 @@ export default withTracker(() => {
     Meteor.subscribe('bins');
     Meteor.subscribe('sharedBins');
     return {bins: Bins.find({}).fetch()}
-})(BinLsist)
+})(BinList)

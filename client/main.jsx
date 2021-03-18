@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import { App } from '/imports/ui/App';
 import { Bins } from '../imports/api/Collections/binsCollection';
 import {Route, Switch, BrowserRouter  } from 'react-router-dom';
-import BinList from '../imports/ui/Components/Bins/BinLsist';
+import BinList from '../imports/ui/Components/Bins/BinList';
 import BinMain from '../imports/ui/Components/Bins/BinMain';
 
 const routes = (
