@@ -14,7 +14,7 @@ This is a course and training project to learn about a technology call Meteor.
 
 ## Launch
 
-*  git clone git@github.com:JordyBukondaTshibangu/DevZone__Blog---Meteor-React-Application.git
-* cd DevZone__Blog---Meteor-React-Application
+* git clone git@github.com:JordyBukondaTshibangu/MARKBIN-APP--udemy-course-.git
+* cd MARKBIN-APP--udemy-course-
 * npm install 
 * meteor run (The server will start on localhost :3000)
